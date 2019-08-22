@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Ticketing Tool</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="generate">Generate Ticket</string>
+    <string name="upadte">Update Ticket</string>
+    <string name="view_all">View Ticket</string>
+    <string name="view_ticket_details">View Ticket Details</string>
+    <string name="view_update_tickets">View Update Tickets</string>
+    <string name="setting">Settings</string>
+    <string name="semi_colon">:</string>
+
+    <string name="login_txt">USER LOGIN</string>
+    <string name="login_user_txt">User</string>
+    <string name="login_mr">MR ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_date">Date</string>
+    <string name="login_admin">Admin ID</string>
+    <string name="login_btn">Login</string>
+    <string name="chracter">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.</string>
+    <string name="company_details">© 2018 Transvision Software &amp; Data Solutions Pvt Ltd.\n
+        All Rights Reserved\n<u>www.transvisionsolutions.com</u></string>
+
+    <string-array name="login_role">
+        <item>--SELECT--</item>
+        <item>Corporate</item>
+        <item>Zone</item>
+        <item>Circle</item>
+        <item>Division</item>
+        <item>Subdivision</item>
+    </string-array>
+
+    <string-array name="subdivision_values">
+        <item>--SELECT--</item>
+        <item>AEE</item>
+        <item>AO</item>
+        <item>AAO</item>
+        <item>JAO</item>
+        <item>CW</item>
+    </string-array>
+
+    <string-array name="corporate_values">
+        <item>CorpEE</item>
+        <item>CorpAEE</item>
+        <item>CorpAO</item>
+        <item>CorpTL</item>
+    </string-array>
+
+    <string-array name="user_role">
+        <item>SELECT</item>
+        <item>ADMIN</item>
+        <item>AEE</item>
+        <item>AAO</item>
+        <item>CW</item>
+        <item>CORP_MD</item>
+        <item>CORP_DT</item>
+        <item>CORP_SE</item>
+        <item>CORP_EE</item>
+        <item>CORP_AO</item>
+        <item>CORP_TL</item>
+    </string-array>
+
+    <string-array name="hescom_login">
+        <item>--SELECT--</item>
+        <item>CSD 2</item>
+        <item>CSD 3</item>
+        <item>CORPORATE</item>
+    </string-array>
+
+
+    <string-array name="tvd_login">
+        <item>Admin</item>
+        <item>HR</item>
+        <item>Management</item>
+        <item>Software</item>
+        <item>Hardware</item>
+    </string-array>
+    <string-array name="csd_login">
+        <item>--SELECT--</item>
+        <item>AEE</item>
+        <item>AAO</item>
+        <item>CW</item>
+        <item>MR</item>
+    </string-array>
+
+    <string-array name="corporate_level">
+        <item>SELECT</item>
+        <item>CORP_MD</item>
+        <item>CORP_DT</item>
+        <item>CORP_SE</item>
+        <item>CORP_EE</item>
+        <item>CORP_AO</item>
+        <item>CORP_TL</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>SELECT</item>
+        <item>P1-High</item>
+        <item>P2-Medium</item>
+        <item>P3-Low</item>
+    </string-array>
+
+    <string-array name="severity">
+        <item>SELECT</item>
+        <item>S1-Critical</item>
+        <item>S2-Major</item>
+        <item>S3-Moderate</item>
+        <item>S4-Low</item>
+    </string-array>
+
+    <string-array name="assign_to">
+        <item>SELECT</item>
+        <item>TVD</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>SELECT</item>
+        <item>SOFTWARE</item>
+        <item>HARDWARE</item>
+        <item>MANAGEMENT</item>
+        <item>HR</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>New</item>
+        <item>Assigned</item>
+        <item>Pending</item>
+        <item>Resolved</item>
+        <item>Reopened</item>
+        <item>Closed</item>
+        <item>Invalid</item>
+        <item>Not Applicable</item>
+        <item>On Hold</item>
+    </string-array>
+
+
+    <string name="main">Main</string>
+    <string name="ticketing">Ticketing</string>
+    <string name="ticketing_message">Generating Ticket&#8230;</string>
+    <string name="login">Login</string>
+    <string name="update">Update</string>
+    <string name="view_ticket">View Ticket</string>
+    <string name="login_message">Login&#8230;Please Wait&#8230;</string>
+    <string name="update_message">Updating&#8230;Please Wait&#8230;</string>
+    <string name="demo1">Ticketing Tool</string>
+    <string name="billing_reports">Billing Reports</string>
+    <string name="collection_reports">Collection Reports</string>
+    <string name="other_reports">Reports</string>
+    <string name="upload">Upload</string>
+    <string name="complaints">Complaints</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="tabs_list">
+        <!--<item>Login</item>-->
+        <item>Raise Ticket</item>
+    </string-array>
+
+    <string name="start_billing">SubdivLogin</string>
+    <string name="chart_billing">Billing Status in Chart</string>
+    <string name="maps_billing">Billing Status in Maps</string>
+    <string name="tc_billing">TC Billing</string>
+    <string name="start_collection">Start Collection</string>
+    <string name="maps_collection">Collection Status in Maps</string>
+    <string name="chq_details">Cheque Details</string>
+    <string name="view_bill">View Bill</string>
+    <string name="view_billed_unbilled">Check Billed Unbilled</string>
+    <string name="collection_summary">Collection Summary</string>
+    <string name="disconnection_reports">Disconnection Reports</string>
+    <string name="reconnection_reports">Reconnection Reports</string>
+    <string name="raise_complaint">Raise Complaint</string>
+    <string name="view_complaint">View Complaints</string>
+    <string name="billing_upload">Upload Billing</string>
+    <string name="collection_upload">Upload Collection</string>
+    <string name="billing_upload_backup">Show Billing Upload files</string>
+    <string name="dialog_login">LOGIN</string>
+    <string name="dialog_login_mr">MR LOGIN</string>
+    <string name="dialog_login_aao">AAO LOGIN</string>
+    <string name="dialog_login_ee">EE LOGIN</string>
+    <string name="dialog_login_cw">CW LOGIN</string>
+    <string name="dialog_login_corp_ee">CORP_EE LOGIN</string>
+    <string name="dialog_login_aee">AEE LOGIN</string>
+    <string name="login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="dialog_login_id_error">Enter Login ID</string>
+    <string name="narration_id_error">Enter Narration</string>
+    <string name="title_id_error">Enter Title</string>
+    <string name="desc_id_error">Enter Description</string>
+    <string name="dialog_login_password_error">Enter Password</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_login_role">LoginRole</string>
+    <string name="desc_hint">Type your description here</string>
+    <string name="title_hint">Type your title here</string>
+    <string name="narration_hint">Type your narration here</string>
+    <string name="title_tv">Title</string>
+    <string name="narration_tv">Narration</string>
+    <string name="desc_tv">Description</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+</resources>
